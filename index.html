@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>Weather App</h1>
+
+    
+    <input type="text" id="WEATHER_API_KEY" placeholder="Open weather API Key here" onChange="handleChange()" />
+    
+    <button id="get-key">Get Key</button>
+  
+    <input type="text" id="city-input" placeholder="Enter city name" />
+    <button id="fetch-btn">Get Weather</button>
+    <div id="weather-output"></div>
+
+
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
+
